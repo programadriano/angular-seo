@@ -1,21 +1,52 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<!-- 
+<video src="/assets/videos/video_groffe.mp4"></video>
+<router-outlet></router-outlet> -->
+<!-- preloader
+    ================================================== -->
+<div id="preloader">
+  <div id="loader" class="dots-jump">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
-<router-outlet></router-outlet>
+
+<!-- home
+  ================================================== -->
+<section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="../assets/images/hero-bg.jpg"
+  data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+  <div class="grid-overlay">
+    <div></div>
+  </div>
+
+  <div class="home-content">
+
+    <div class="row home-content__main">
+
+      <h1>
+        .NET Conf
+      </h1>
+
+      <h3>
+       A prova real do BOT
+      </h3>
+
+      <div class="home-content__video">
+        <a class="video-link" href="../assets/videos/video_groffe.mp4" data-lity>
+          <span class="video-icon"></span>
+          <span class="video-text">Assistir Video</span>
+        </a>
+      </div>
+
+      <div class="home-content__button">
+        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+          .NET SP
+        </a>
+        <a href="#contact" class="smoothscroll btn btn--large">
+          2018
+        </a>
+      </div>
+    </div> <!-- end home-content__main -->
+  </div> <!-- end home-content -->
